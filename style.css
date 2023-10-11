@@ -22,6 +22,7 @@
 
 /*#region header block */
 
+
 .d-flex {
     display: flex;
 }
@@ -49,3 +50,67 @@ a {
 }
 
 /*#endregion header block */
+
+.card{
+    width: calc((100% - 20px)/3);
+    position: relative;   
+  }
+.container.main{
+    gap: 10px;
+    margin-top: 10px;  
+  }
+.image{
+  width: 100%;
+}
+.over{
+    position: absolute;
+    top:0;
+    left:0;
+    
+  }
+.over:hover{
+    display: none;
+  }
+
+.text2{
+  text-transform: uppercase;
+}
+.pricing{
+  display: flex;
+  gap: 5px;
+}
+.full{
+  color: red;
+}
+.discount{
+  text-decoration-line: line-through;
+}
+.tag{
+    position: absolute;
+    margin: 5px;
+    bottom: 70px;  
+  }
+.tag-red, .tag-green{
+    font-size: small;
+    color: white;
+    padding: 2px;
+    display: inline-block;
+  }
+  .tag-red{
+    background-color: red;
+    }
+.tag-green{
+    background-color: green;
+    }
+.cuore{
+  font-size: x-large;
+  position: absolute;
+  right: 0;
+  top:10px;
+  background-color: white;
+  padding: 2px;
+  margin: 2px;
+}
+.cuore:hover{
+  color: red;
+}
